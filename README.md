@@ -3,6 +3,21 @@
 ## Concept:
 A social media app that lets you share your images and creativity. The user is able to post, comment, and save media in the form of albums.
 
+## User Stories:
+"As a user I want to be able to login and/or sign up."
+
+"As a user I want to create a new account."
+
+"As a user I want to be able to create, edit, and delete my posts."
+
+"As a user I want to create albums and add images."
+
+"As a user I want to delete albums and images in those albums."
+
+"As a user I want to view and edit my profile page."
+
+"As a user I want to comment on posts."
+
 ## Wireframes:
 
 <img width="1457" alt="Screen Shot 2022-05-04 at 5 29 54 PM" src="https://user-images.githubusercontent.com/93559383/166847929-7bf7ebda-1a2b-4e34-b22f-13ab32a81662.png">
@@ -18,16 +33,10 @@ A social media app that lets you share your images and creativity. The user is a
     - HTML
     - React
 
-## User Stories:
-"As a user I want to create a new account."
 
-"As a user I want to be able to make a post."
+## Icebox
 
-"As a user I want to add images to my own album."
-
-"As a user I want to see my profile page."
-
-"As a user I want to comment on posts."
+"As a user I can follow and like posts."
 
 
 ## App Demo
