@@ -20,9 +20,13 @@ A social media app that lets you share your images and creativity. The user is a
 
 ## User Stories:
 "As a user I want to create a new account."
+
 "As a user I want to be able to make a post."
+
 "As a user I want to add images to my own album."
+
 "As a user I want to see my profile page."
+
 "As a user I want to comment on posts."
 
 
