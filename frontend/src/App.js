@@ -5,29 +5,29 @@ function App() {
 
   const [postList, setPostList] = useState([])
 
-  useEffect(()=>{
+  useEffect(() => {
     axios
-    .get("/api/posts/")
+    .get("http://localhost:8000/api/posts")
     .then((res) => {
       console.log(res.data)
       setPostList(res.data)
     })
     .catch((err) => console.log(err))
-}, [])
-
-
+  }, [])
 
 return (
   <div>
     <div>
       <p> {postList.map((e) => {
         return(
-          <div  style={{color: e.completed ? 'green' : 'red', borderRadius: '1px'}}>
+          <div>
             <p> {e.title}</p>
+            <p> {e.img}</p>
             <p> {e.caption}</p>
           </div>
-        )
-      })} </p>
+          )})
+        }
+      </p>
     </div>
   </div>
 );
